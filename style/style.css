@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin    : 0;
+  padding   : 0;
+  font-style: sans-serif;
+}
+
+.cabeza{
+  background-color: black;
+  color: white;
+
+  
+}
+
+.cabeza li {
+  padding: 5px;
+}
+
+nav {
+  background-color: #f0a83e;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner{
+  background-image: url(/assets/img/background.png);
+  height: 500px;
+
+}
+
+.sub{
+  background-color: beige;
+  justify-content: space-between
+}
+
+.titulo{
+  color: #3c2313;
+}
+
+.items{
+  
+}
+
+
+
+
+
+
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0a83e;
+  padding-block: 1rem;
+}
+.footer_banner p {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: white;
+  padding-inline: 1rem;
+}
+.footer_banner p img {
+  margin-right: 0.5rem;
+}
+.footer_banner form {
+  margin-right: 2rem;
+}
+.footer_banner input {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  width: 25vw;
+}
+.footer_banner button {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background-color: #3c2313;
+  margin-inline: 0.5rem;
+}
+.footer_contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4rem;
+  background-color: #3c2313;
+  padding-block: 1rem;
+}
+.footer_contact ul {
+  list-style-type: none;
+}
+.footer_contact ul li {
+  display: flex;
+  margin-bottom: 1rem;
+  color: white;
+  gap: 1rem;
+}
+.footer_contact ul li p {
+  display: flex;
+  flex-direction: column;
+}
+.footer_contact ul li p span {
+  color: #8a8787;
+  font-size: 0.5rem;
+}
+.footer_copyright {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  padding-block: 5px;
+}
